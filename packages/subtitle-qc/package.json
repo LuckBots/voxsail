@@ -1,0 +1,31 @@
+{
+  "name": "@voxsail/subtitle-qc",
+  "version": "0.1.0",
+  "description": "A zero-dependency SRT and WebVTT quality checker from VoxSail.",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "subtitle-qc": "./src/cli.js"
+  },
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "lint": "node --check src/*.js"
+  },
+  "keywords": [
+    "subtitles",
+    "srt",
+    "webvtt",
+    "subtitle-validator",
+    "video-localization"
+  ]
+}

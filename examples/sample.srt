@@ -1,0 +1,11 @@
+1
+00:00:01,000 --> 00:00:03,000
+Welcome to VoxSail.
+
+2
+00:00:03,400 --> 00:00:06,000
+It checks timing, readability, and delivery boundaries.
+
+3
+00:00:06,400 --> 00:00:09,000
+Use the JSON report in your own localization workflow.

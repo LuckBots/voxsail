@@ -1,0 +1,17 @@
+{
+  "name": "voxsail-public",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Public VoxSail tools and practical resources for video localization.",
+  "type": "module",
+  "packageManager": "pnpm@11.5.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "subtitle:check": "node packages/subtitle-qc/src/cli.js",
+    "demo": "node packages/subtitle-qc/src/cli.js examples/sample.srt",
+    "test": "pnpm --filter @voxsail/subtitle-qc test",
+    "lint": "pnpm --filter @voxsail/subtitle-qc lint"
+  }
+}
